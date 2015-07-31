@@ -133,10 +133,10 @@ ul{
 
 
 .main-content {
-  width:1120px;
-  margin:0 auto;
+  width:100%;
+
   text-align:center;
-  padding:40px 0px;
+  padding:80px 0px;
   overflow:auto;
 }
 
@@ -148,6 +148,16 @@ ul{
   color:#16a085;
 }
 
+.about{
+  background:#fff;
+}
+
+.about p{
+  width:700px;
+  margin:0 auto;
+  color:#5a5a5a;
+  line-height: 1.5em;
+}
 
 
 
@@ -196,6 +206,7 @@ ul{
 .project-desc p{
   color:#5a5a5a;
   line-height:1.5em;
+
 }
 
 .project-desc p:before, .project-desc p:after{
@@ -207,6 +218,24 @@ ul{
   background:#ececec;
   margin-top:10px;
   margin-bottom:10px;
+}
+
+
+.project-desc nav{
+    padding-top:40px;
+    text-align:center;
+    font-size:20px;
+
+}
+
+.project-desc nav a{
+  color:#16a085;
+  font-variant: small-caps;
+}
+
+
+.project-desc nav a:hover{
+  text-decoration: underline;
 }
 
 .project-images{
